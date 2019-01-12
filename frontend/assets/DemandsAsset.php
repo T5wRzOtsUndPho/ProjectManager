@@ -9,13 +9,15 @@ use yii\web\AssetBundle;
  */
 class DemandsAsset extends AssetBundle
 {
+    //public $sourcePath = '@frontend/assets/DemandApp';
+
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css','main.7e05470a43c7316545fc.css',
+        'main.384e8faa742b6ed1102a.css',
     ];
     public $js = [
-        'bundle.7e05470a43c7316545fc.js',
+        'bundle.384e8faa742b6ed1102a.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

@@ -16,7 +16,8 @@ DemandsAsset::register($this);
 
 $this->title = 'Projects';
 $this->params['breadcrumbs'][] = $this->title;
-?>
-<div style="margin: 0px; padding: 0px" id="app">
 
-</div>
+//<div style="margin: 0px; padding: 0px" id="app"></div>
+?>
+
+<div id="app" class="home"></div>
